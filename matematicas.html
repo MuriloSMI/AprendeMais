@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="matematicas.js"></script>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <div class="logo">
+            <img id="logoimg" src="img/logo.png" alt="logo AprendeMais">
+        </div>
+        <div class="navegacao">
+            <div class="icones">
+                <img src="img/search.png" alt="pesquisar" id="search">
+                <img src="img/user.png" alt="usuário" id="user">
+            </div>
+            <div class="menu">
+                <span class="inicio">Início</span>
+                |
+                <span class="categorias">Categorias</span>
+                |
+                <span class="areas">Áreas de Conhecimento</span>
+                |
+                <span class="ajuda">Ajuda</span>
+            </div>
+        </div>
+    </div>
+    <div class="conteudo">
+        <div id="h1ebotao">
+            <h1>Matemática ——————————————————————————————————</h1>
+            <p id="textocinza">Nesta área você encontra modelos de calculadoras, conversores, sorteador de números
+                aleatórios, etc. Fique a vontade para usar da melhor forma cada função!</p>
+            <div class="soosbotao">
+                <div class="ugabugaa">
+                    <div class="botaotipo1" onclick="imc()">
+                        <p>CALCULADORA <br>DE IMC</p>
+                    </div>
+                    <div class="botaotipo2" onclick="conversor()">
+                        <p>CONVERSOR <br>DE MOEDAS</p>
+                    </div>
+                </div>
+                <div class="ugabugaa">
+                    <div class="botaotipo2" onclick="gas()">
+                        <p>GASTOS COM <br>COMBUSTÍVEL</p>
+                    </div>
+                    <div class="botaotipo1" onclick="numeros()">
+                        <p>SORTEADOR <br>DE NÚMEROS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="imc" class="borabill">
+            <h1>Calculadora de IMC</h1>
+            <input class="inputdhr" type="text" placeholder="Nome" id="nomei"><br>
+            <input class="inputdhr" type="number" placeholder="Peso (kg)" id="peso"><br>
+            <input class="inputdhr" type="number" placeholder="Altura (cm)" id="altura"><br>
+            <p id="imcresultado"></p>
+            <input id="botaocalcula" type="button" value="Calcular" onclick="calcularimc()">
+            <input id="botaocalcula" type="button" value="Voltar" onclick="volta()">
+        </div>
+        <div id="conversor" class="borabill">
+            <h1>Conversor de Moedas</h1>
+            <form id="escolhemoeda"></form>
+            <div>
+                <input class="inputdhr" type="number" placeholder="Valor" id="valormoeda">
+                <input id="real" type="radio" name="moeda1" />
+                <label>Real</label>
+                <input id="dolar" type="radio" name="moeda1" />
+                <label>Dólar </label>
+                <input id="euro" type="radio" name="moeda1" />
+                <label>Euro</label>
+            </div>
+            </form>
+            <form id="escolhemoeda"></form>
+            <div>
+                <p id="pamonha">Converter para:</p>
+                <input id="real" type="radio" name="moeda2" />
+                <label>Real</label>
+                <input id="dolar" type="radio" name="moeda2" />
+                <label>Dólar </label>
+                <input id="euro" type="radio" name="moeda2" />
+                <label>Euro</label>
+            </div>
+            </form>
+            <p id="resultadoconversao"></p><br>
+            <div id="botoesco">
+                <input id="botaocalcula" type="button" value="Calcular" onclick="converter()">
+                <input id="botaocalcula" type="button" value="Voltar" onclick="volta()">
+            </div>
+        </div>
+        <div id="combustivel" class="borabill">
+            <h1>Gastos com Combustível</h1>
+            <input class="inputdhr" type="text" placeholder="Origem" id="origem">
+            <input class="inputdhr" type="text" placeholder="Destino" id="destino">
+            <input class="inputdhr" type="number" placeholder="Distância (Km)" id="distancia">
+            <input class="inputdhr" type="number" placeholder="Consumo (Km/L)" id="consumo">
+            <input class="inputdhr" type="number" placeholder="Preço do combustível" id="valorcombustivel"><br>
+            <p id="rescom"></p>
+            <div id="botoesco">
+                <input id="botaocalcula" type="button" value="Calcular" onclick="combustivel()">
+                <input id="botaocalcula" type="button" value="Voltar" onclick="volta()">
+            </div>
+        </div>
+        <div id="sorteador" class="borabill">
+            <h1>Sorteador de números</h1>
+            <input class="inputdhr" type="number" placeholder="Valor mínimo" id="mins">
+            <input class="inputdhr" type="number" placeholder="Valor máximo" id="maxs">
+            <input class="inputdhr" type="number" placeholder="Quantidade de números" id="qtnum">
+            <p id="resr"></p>
+            <div id="botoesco">
+                <input id="botaocalcula" type="button" value="Calcular" onclick="sortear()">
+                <input id="botaocalcula" type="button" value="Voltar" onclick="volta()">
+            </div>
+        </div>
+    </div>
+
+    <footer id="pe">
+        <div class="cmcpe"><img src="img/logo.png" alt="logo"></div>
+        <div class="fimpe">
+            <div class="sociais">
+                <img src="img/fb.png" alt="facebook">
+                <img src="img/instagram.png" alt="instagram">
+                <img src="img/twitter.png" alt="twitter">
+                <img src="img/youtube.png" alt="youtube" id="ytb">
+            </div>
+            <p>Desenvolvido por IFMS - Campus Dourados</p>
+        </div>
+    </footer>
+</body>
+
+</html>

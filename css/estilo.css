@@ -1,0 +1,822 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -0.001vh; /* so p n bugar as borda 😎 */
+}
+
+.cabecalho {
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(72, 164, 164);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 10vh;
+    width: 20%;
+    background-color: rgb(72, 164, 164);
+    margin-left: 1%;
+}
+
+.navegacao {
+    margin-right: 1%;
+    height: 10vh;
+    width: 50%;
+    background-color: rgb(72, 164, 164);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.icones {
+    height: 4vh;
+    width: 30%;
+    background-color: rgb(72, 164, 164);
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.menu {
+    height: 4vh;
+    width: 100%;
+    background-color: rgb(72, 164, 164);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: white;
+}
+
+#logoimg {
+    height: 100%;
+    width: auto;
+}
+
+#user {
+    height: 100%;
+    width: auto;
+    margin-left: 1.8%;
+}
+
+#search {
+    height: 100%;
+    width: auto;
+}
+
+.menu span {
+    color: rgb(255, 255, 255);
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}
+
+.menu span:hover {
+    color: rgb(145, 145, 145);
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+    height: 82vh;
+    background-color: rgb(54, 54, 54);
+}
+
+#banner {
+    margin-top: 1%;
+    width: 100%;
+    height: auto;
+    align-items: baseline;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt {
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#p {
+    font-size: 251%;
+}
+
+.coisas {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item {
+    padding: 2vh;
+}
+
+.imgItem {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(228, 86, 46);
+    font-size: 70%;
+}
+
+.coisas img {
+    padding: 1%;
+}
+
+.tudo {
+    width: 80%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    color: rgb(228, 86, 46);
+    font-size: 130%;
+}
+
+.tudo p {
+    margin-right: 2.5%;
+    font-size: 180%;
+    margin-top: 4%;
+}
+
+.circuloo {
+    background-color: rgb(42, 64, 66);
+    border-radius: 100%;
+    box-shadow: 2vh 1vh 1vh 0 rgb(180, 180, 180);
+}
+
+.dalva {
+    color: rgb(42, 64, 66);
+    font-size: 450%;
+    margin-top: 1.6vh;
+}
+
+.arias {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(72, 164, 164);
+    font-size: 180%;
+    flex-direction: row;
+    margin-top: -3vh;
+    text-align: center;
+}
+
+.imgItem h2 {
+    margin-top: -2vh;
+}
+
+.quadradoes {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.quadraddddos {
+    width: 30%;
+    background-color: rgb(228, 86, 46);
+    color: white;
+    font-size: 200%;
+    text-align: center;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 1vh 1vh 1vh 0 rgb(180, 180, 180);
+}
+
+.coun5 {
+    width: 100%;
+    height: auto;
+}
+
+.textoqd {
+    margin: 2vh;
+    margin-bottom: 2.3vh;
+}
+
+#pe {
+    background-color: rgb(72, 164, 164);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cmcpe {
+    width: 25%;
+    height: 25vh;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.cmcpe img {
+    height: 45%;
+    width: auto;
+    margin: 2vh
+}
+
+.fimpe {
+    width: 70%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: column;
+}
+
+.sociais {
+    height: 10vh;
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+
+.sociais img{
+    height: 50%;
+    width: auto;
+    margin: 2%;
+    margin-top: 7%;
+}
+
+#ytb {
+    margin-right: 7%;
+}
+
+.fimpe p {
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+    margin-right: 2.8%;
+}
+
+.linhaa {
+    background-color: rgb(72, 164, 164);
+    width: 60%;
+    height: 0.5vh;
+}
+
+.btnanterior {
+    width: 10vh;
+    height: 10vh;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top: -50vh;
+    left: 5vh;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.btnanterior :hover {
+    opacity: 70%;
+    background-color: aqua;
+}
+
+.btnposterior {
+    width: 10vh;
+    height: 10vh;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top: -60vh;
+    right: -185vh;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.conteudob {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.celula {
+    margin-bottom: 10vh;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    width: 40vh;
+}
+
+h1 {
+    font-size: 200%;
+    margin-top: 4vh;
+    color: rgb(68, 161, 160);
+    -webkit-text-stroke: 1px;
+}
+
+#corpo {
+    position: absolute;
+    height: 400px;
+    top: 370px;
+    left: 780px;
+}
+
+#nucleo {
+    position: absolute;
+    height: 103.5px;
+    left: 928px;
+    top: 473px;
+    opacity: 70%;
+    z-index: 1;
+}
+
+#nucleo:hover{
+    opacity: 100%;
+}
+
+#reticulo1 {
+    position: absolute;
+    height: 140px;
+    left: 883px;
+    top: 426px;
+    opacity: 70%;
+}
+
+#reticulo1:hover {
+    opacity: 100%;
+}
+
+#reticulo2 {
+    position: absolute;
+    height: 150px;
+    left: 971px;
+    top: 466px;
+    opacity: 70%;
+}
+
+#reticulo2:hover {
+    opacity: 100%;
+}
+
+#microtubulo1 {
+    position: absolute;
+    height: 75.8px;
+    left: 850px;
+    top: 517px;
+    opacity: 70%;
+}
+
+#microtubulo1:hover {
+    opacity: 100%;
+}
+
+#microtubulo2 {
+    position: absolute;
+    height: 98px;
+    left: 1005.5px;
+    top: 391px;
+    opacity: 70%;
+}
+
+#microtubulo2:hover {
+    opacity: 100%;
+}
+
+#microtubulo3 {
+    position: absolute;
+    height: 30px;
+    left: 964px;
+    top: 625px;
+    opacity: 70%;
+}
+
+#microtubulo3:hover {
+    opacity: 100%;
+}
+
+#centriolos {
+    position: absolute;
+    height: 54px;
+    left: 875px;
+    top: 599px;
+    opacity: 70%;
+}
+
+#centriolos:hover {
+    opacity: 100%;
+}
+
+#mitocondria1 {
+    position: absolute;
+    height: 64px;
+    left: 826px;
+    top: 436px;
+    opacity: 70%;
+}
+
+#mitocondria1:hover {
+    opacity: 100%;
+}
+
+#mitocondria2 {
+    position: absolute;
+    height: 70px;
+    left: 830px;
+    top: 590px;
+    opacity: 70%;
+}
+
+#mitocondria2:hover {
+    opacity: 100%;
+}
+
+#mitocondria3 {
+    position: absolute;
+    height: 65px;
+    left: 1015px;
+    top: 635px;
+    opacity: 70%;
+}
+
+#mitocondria3:hover {
+    opacity: 100%;
+}
+
+#lisossomo1 {
+    position: absolute;
+    height: 35px;
+    left: 805px;
+    top: 535px;
+    opacity: 70%;
+}
+
+#lisossomo1:hover {
+    opacity: 100%;
+}
+
+#lisossomo2 {
+    position: absolute;
+    height: 35px;
+    left: 860px;
+    top: 678px;
+    opacity: 70%;
+    z-index: 1;
+}
+
+#lisossomo2:hover {
+    opacity: 100%;
+}
+
+#golgi {
+    position: absolute;
+    height: 75px;
+    left: 910px;
+    top: 665px;
+    opacity: 70%;
+}
+
+#golgi:hover {
+    opacity: 100%;
+}
+
+#txtmembrana {
+    position: absolute;
+    height: 40px;
+    left: 610px;
+    top: 400px;
+}
+
+#txtmembrana:hover {
+    height: 41px;
+}
+
+#txtnucleo {
+    position: absolute;
+    height: 22px;
+    left: 1020px;
+    top: 530px;
+    z-index: 2;
+}
+
+#txtnucleo:hover {
+    height: 23px;
+}
+
+#txtreticulo {
+    position: absolute;
+    height: 42px;
+    left: 1015px;
+    top: 588px;
+}
+
+#txtreticulo:hover {
+    height: 43px;
+}
+
+#txtmicrotubulos {
+    position: absolute;
+    height: 22px;
+    left: 1019px;
+    top: 400px;
+}
+
+#txtmicrotubulos:hover {
+    height: 23px;
+}
+
+#txtcentriolos {
+    position: absolute;
+    height: 122px;
+    left: 530px;
+    top: 640px;
+}
+
+#txtcentriolos:hover {
+    height: 123px;
+}
+
+#txtmitocondrias {
+    position: absolute;
+    height: 22px;
+    left: 1045px;
+    top: 675px;
+}
+
+#txtmitocondrias:hover {
+    height: 23px;
+}
+
+#txtlisossomos {
+    position: absolute;
+    height: 17px;
+    left: 590px;
+    top: 543px;
+}
+
+#txtlisossomos:hover {
+    height: 18px;
+}
+
+#txtgolgi {
+    position: absolute;
+    height: 110px;
+    left: 780px;
+    top: 720px;
+}
+
+#txtgolgi:hover {
+    height: 112px;
+}
+
+.textos {
+    font-size: 200%;
+    margin-left: 13vh;
+    margin-right: 13vh;
+}
+
+.textos b {
+    color: rgb(68, 161, 160);
+}
+
+.conteudog {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 200%;
+    margin: 4vh;
+    color: rgb(68, 161, 160);
+}
+
+.perguntas {
+    width: 86%;
+}
+
+#nome {
+    height: 4vh;
+    width: 94%;
+    margin-left: 2.5%;
+    font-size: 150%;
+    border-color: rgb(68, 161, 160);
+    border-style: solid;
+    border-radius: 8px;
+    padding-left: 1%;
+}
+
+.forma {
+    font-size: 180%;
+    margin: 2%;
+    width: 96%;
+}
+
+.respostass {
+    display: flex;
+    flex-direction: row;
+    margin-top: -2%;
+}
+
+.r1 {
+    width: 50%;
+}
+
+.r2 {
+    width: 50%;
+}
+
+.geral {
+    display: flex;
+    flex-direction: row;
+}
+
+.esq {
+    width: 50%;
+}
+
+.dir {
+    width: 50%;
+}
+
+#resultado {
+    font-size: 250%;
+    color: rgb(72, 164, 164);
+}
+
+#enviar {
+    border: none;
+    background-color: rgb(72, 164, 164);
+    font-size: 220%;
+    font-weight: bold;
+    color: white;
+    padding: 1.6%;
+    border-radius: 10px;
+}
+
+form p {
+    font-weight: bold;
+    color: rgb(72, 164, 164);
+}
+
+#h1ebotao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 72%;
+}
+
+#h1ebotao #textocinza {
+    color: rgb(144,140,140);
+    font-size: 200%;
+    margin-top: -1vh;
+}
+
+.soosbotao {
+    width: 98%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.ugabugaa {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botaotipo1 {
+    width: 47%;
+    height: 96%;
+    background-color: rgb(72, 164, 164);
+    border-radius: 1em;
+    transition: background-color 0.1s ease;
+    text-align: center;
+    color: white;
+    font-size: 300%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaotipo1:hover {
+    background-color: rgb(61, 138, 138);
+}
+
+.botaotipo2 {
+    width: 47%;
+    height: 96%;
+    background-color: rgb(144,140,140);
+    border-radius: 1em;
+    transition: background-color 0.1s ease;
+    text-align: center;
+    color: white;
+    font-size: 300%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaotipo2:hover {
+    background-color: rgb(121, 117, 117);
+}
+
+.amostradinho {
+    display: flex !important;
+}
+
+.borabill {
+    display: none !important;
+}
+
+#imc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+
+.inputdhr {
+    padding: 3vh 4vh;
+    font-size: 3vh;
+    margin: 1vh;
+    border-radius: 0.5em;
+    border-color: rgb(72, 164, 164);
+}
+
+#botaocalcula {
+    background-color: rgb(72, 164, 164);
+    color: white;
+    border: none;
+    padding: 3vh 4vh;
+    font-size: 150%;
+    cursor: pointer;
+    border-radius: 0.5em;
+    transition: background-color,  0.2s ease;
+    font-weight: bold;
+    margin: 1vh;
+}
+
+#botaocalcula:hover {
+    background-color: rgb(61, 138, 138);
+    font-size: 160%;
+}
+
+#imc p {
+    font-size: 180%;
+}
+
+#conversor label {
+    font-size: 180%;
+}
+
+#botoesco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#conversor {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+#pamonha {
+    font-size: 200%;
+}
+
+#resultadoconversao {
+    font-size: 180%;
+}
+
+#combustivel {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+}
+
+#rescom {
+    font-size: 180%;
+}
+
+#resr {
+    font-size: 180%;
+}
+
+#sorteador {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+}
